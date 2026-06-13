@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.vue';
+import Hero from '../components/Hero.vue';
+import Menu from '../components/Menu.vue';
+import Footer from '../components/Footer.vue';
+---
+
+<Layout>
+	<Header client:load />
+	<main>
+		<Hero client:load />
+		<Menu client:visible />
+	</main>
+	<Footer />
+</Layout>
