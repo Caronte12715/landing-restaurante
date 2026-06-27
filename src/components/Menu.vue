@@ -6,25 +6,25 @@ const menuItems = [
     name: 'Tartar de Res Premium',
     description: 'Corte fino de res wagyu, yema curada, alcaparras crujientes y emulsión de mostaza antigua.',
     price: '$32',
-    image: 'https://images.unsplash.com/photo-1621682333790-281b376c24b1?q=80&w=1000&auto=format&fit=crop'
+    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1000&auto=format&fit=crop'
   },
   {
     name: 'Lubina Salvaje',
     description: 'Sellada a la perfección, puré de coliflor ahumada, espárragos de mar y beurre blanc de yuzu.',
     price: '$45',
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=1000&auto=format&fit=crop'
+    image: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1000&auto=format&fit=crop'
   },
   {
     name: 'Pato Glaseado',
     description: 'Pechuga de pato madurado, reducción de frutos rojos, texturas de remolacha y pistachos.',
     price: '$42',
-    image: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=1000&auto=format&fit=crop'
+    image: 'https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=1000&auto=format&fit=crop'
   },
   {
     name: 'Esfera de Chocolate',
     description: 'Chocolate oscuro 70%, corazón líquido de maracuyá, polvo de oro y helado de vainilla en vaina.',
     price: '$24',
-    image: 'https://images.unsplash.com/photo-1605807646983-377bc5a76493?q=80&w=1000&auto=format&fit=crop'
+    image: 'https://images.unsplash.com/photo-1563805042-7684c8e9e5cb?q=80&w=1000&auto=format&fit=crop'
   }
 ];
 
