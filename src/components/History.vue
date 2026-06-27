@@ -23,7 +23,9 @@
             Nuestra cocina no es solo técnica e ingredientes de proximidad; es el relato íntimo del fuego, el tiempo y la pasión, plasmado en cada emplatado.
           </p>
           <div class="flex items-center gap-6">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Signature_of_Alexander_Hamilton.svg" alt="Firma del Chef" class="h-16 opacity-40 invert filter sepia-[0.5] hue-rotate-[10deg]" />
+            <div class="h-16 flex items-center justify-center px-4">
+              <span class="font-serif italic text-4xl text-rest-gold/60" style="transform: rotate(-5deg);">Alexander V.</span>
+            </div>
             <div class="border-l border-white/20 pl-6">
               <span class="block text-white font-serif text-xl">Alexander V.</span>
               <span class="text-xs text-rest-gold tracking-[0.3em] uppercase font-light">Chef Ejecutivo</span>
