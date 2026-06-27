@@ -36,7 +36,7 @@
           <div class="relative group reveal-up delay-200">
             <div class="aspect-square overflow-hidden relative w-3/4 ml-auto">
               <div class="absolute inset-0 bg-rest-dark/20 z-10 group-hover:bg-transparent transition-colors duration-1000"></div>
-              <img src="https://images.unsplash.com/photo-1549488344-c60317e3be97?q=80&w=800&auto=format&fit=crop" alt="Mesa de Eventos" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-[2s] filter grayscale-[40%] group-hover:grayscale-0" />
+              <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=800&auto=format&fit=crop" alt="Mesa de Eventos" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-[2s] filter grayscale-[40%] group-hover:grayscale-0" />
             </div>
             <div class="mt-6 text-right w-3/4 ml-auto">
               <h3 class="font-serif text-3xl text-white mb-2">Salón Vantablack</h3>
