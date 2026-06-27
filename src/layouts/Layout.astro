@@ -7,8 +7,28 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>Savoir - Alta Cocina</title>
 	</head>
-	<body class="bg-rest-dark text-rest-light font-sans antialiased selection:bg-rest-accent selection:text-white">
+	<body class="bg-rest-dark text-rest-light font-sans antialiased selection:bg-rest-accent selection:text-white overflow-x-hidden">
 		<slot />
+
+		<script>
+			document.addEventListener("DOMContentLoaded", () => {
+				const observer = new IntersectionObserver((entries) => {
+					entries.forEach(entry => {
+						if (entry.isIntersecting) {
+							entry.target.classList.add('is-revealed');
+							observer.unobserve(entry.target);
+						}
+					});
+				}, {
+					threshold: 0.1,
+					rootMargin: "0px 0px -50px 0px"
+				});
+
+				document.querySelectorAll('.reveal-up, .reveal-left, .reveal-right, .reveal-scale').forEach((el) => {
+					observer.observe(el);
+				});
+			});
+		</script>
 	</body>
 </html>
 

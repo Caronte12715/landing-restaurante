@@ -2,9 +2,13 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.vue';
 import Hero from '../components/Hero.vue';
+import Philosophy from '../components/Philosophy.vue';
 import Menu from '../components/Menu.vue';
+import WineCellar from '../components/WineCellar.vue';
 import History from '../components/History.vue';
+import Awards from '../components/Awards.vue';
 import Gallery from '../components/Gallery.vue';
+import PrivateEvents from '../components/PrivateEvents.vue';
 import Testimonials from '../components/Testimonials.vue';
 import Reservation from '../components/Reservation.vue';
 import Footer from '../components/Footer.vue';
@@ -14,9 +18,13 @@ import Footer from '../components/Footer.vue';
 	<Header client:load />
 	<main>
 		<Hero client:load />
-		<History client:visible />
+		<Philosophy client:visible />
 		<Menu client:visible />
+		<WineCellar client:visible />
+		<History client:visible />
+		<Awards client:visible />
 		<Gallery client:visible />
+		<PrivateEvents client:visible />
 		<Testimonials client:visible />
 		<Reservation client:visible />
 	</main>

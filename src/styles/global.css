@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  --color-rest-dark: #121212;
+  --color-rest-dark: #0a0a0a;
   --color-rest-gray: #1C1C1C;
-  --color-rest-light: #F8F5F2;
-  --color-rest-accent: #E65C00;
-  --color-rest-gold: #C5A059;
+  --color-rest-light: #FAFAFA;
+  --color-rest-accent: #FF5E00;
+  --color-rest-gold: #D4AF37;
   
-  --font-serif: 'Cinzel', serif;
-  --font-sans: 'Montserrat', sans-serif;
+  --font-serif: 'Cormorant Garamond', serif;
+  --font-sans: 'Jost', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap');
 
 html, body {
   background-color: var(--color-rest-dark);
@@ -22,4 +22,38 @@ html, body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-serif);
+}
+
+@layer utilities {
+  .reveal-up {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .reveal-left {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .reveal-right {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .reveal-scale {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: all 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  
+  .is-revealed {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+  }
+  
+  .delay-100 { transition-delay: 100ms; }
+  .delay-200 { transition-delay: 200ms; }
+  .delay-300 { transition-delay: 300ms; }
+  .delay-400 { transition-delay: 400ms; }
+  .delay-500 { transition-delay: 500ms; }
 }
