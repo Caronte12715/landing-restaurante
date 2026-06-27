@@ -1,5 +1,5 @@
 <template>
-  <section id="galeria" class="py-32 bg-rest-dark relative border-t border-white/5">
+  <section id="galeria" class="py-32 bg-rest-dark relative">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-20 reveal-up">
         <span class="text-rest-gold font-sans font-light tracking-[0.4em] uppercase text-xs md:text-sm mb-4 block">

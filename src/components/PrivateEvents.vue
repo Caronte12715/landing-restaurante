@@ -1,5 +1,5 @@
 <template>
-  <section class="py-40 bg-rest-dark relative overflow-hidden border-t border-white/5">
+  <section class="py-40 bg-rest-dark relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-6 relative z-10">
       
       <!-- Titulo Asimetrico -->

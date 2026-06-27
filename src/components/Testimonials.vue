@@ -1,5 +1,5 @@
 <template>
-  <section id="testimonios" class="py-32 relative bg-rest-dark border-t border-white/5">
+  <section id="testimonios" class="py-32 relative bg-rest-dark">
     <!-- Ambient Blur -->
     <div class="absolute left-0 top-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-rest-gold/5 rounded-full blur-[150px] pointer-events-none"></div>
 

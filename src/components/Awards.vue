@@ -1,5 +1,5 @@
 <template>
-  <section class="py-24 bg-rest-gold relative overflow-hidden flex flex-col justify-center border-t border-b border-rest-dark">
+  <section class="py-24 bg-rest-gold relative overflow-hidden flex flex-col justify-center">
     <!-- Static intro text -->
     <div class="max-w-7xl mx-auto px-6 w-full mb-12 text-center reveal-up">
       <span class="text-rest-dark font-sans font-bold tracking-[0.4em] uppercase text-xs">

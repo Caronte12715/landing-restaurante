@@ -1,5 +1,5 @@
 <template>
-  <section class="relative h-[120vh] bg-rest-dark overflow-hidden flex items-center justify-center border-t border-white/5">
+  <section class="relative h-[120vh] bg-rest-dark overflow-hidden flex items-center justify-center">
     <!-- Texto gigante de fondo fijo -->
     <div class="absolute inset-0 flex items-center justify-center opacity-5 pointer-events-none overflow-hidden">
       <h2 class="text-[25vw] font-serif text-white whitespace-nowrap leading-none tracking-tighter">

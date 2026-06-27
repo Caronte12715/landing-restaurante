@@ -1,5 +1,5 @@
 <template>
-  <section id="reservar" class="py-32 relative overflow-hidden bg-[url('https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&q=80&w=1920')] bg-cover bg-fixed bg-center border-t border-white/5">
+  <section id="reservar" class="py-32 relative overflow-hidden bg-[url('https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&q=80&w=1920')] bg-cover bg-fixed bg-center">
     <div class="absolute inset-0 bg-rest-dark/80 backdrop-blur-md z-0"></div>
     
     <div class="max-w-4xl mx-auto px-6 relative z-10">

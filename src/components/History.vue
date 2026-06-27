@@ -1,5 +1,5 @@
 <template>
-  <section id="historia" class="py-32 relative overflow-hidden bg-rest-dark border-t border-white/5">
+  <section id="historia" class="py-32 relative overflow-hidden bg-rest-dark">
     <div class="max-w-7xl mx-auto px-6 relative z-10">
       <div class="flex flex-col md:flex-row items-center gap-20">
         <div class="w-full md:w-1/2 relative group reveal-left">
